@@ -35,7 +35,7 @@ class Curriculum(object):
                 if list(self.intervention_actors[actor_index].get_params().keys)[0] == "curriculum_actor":
                     interventions_dict.update(
                         self.intervention_actors[actor_index].act(
-                            current_task_params, episode / 200))
+                            current_task_params, episode / 40 if episode < 40 else 1))
                 else:
                     interventions_dict.update(
                         self.intervention_actors[actor_index].act(

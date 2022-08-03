@@ -10,5 +10,7 @@ from causal_world.intervention_actors.visual_actor import \
     VisualInterventionActorPolicy
 from causal_world.intervention_actors.physical_proporties_actor import \
     PhysicalPropertiesInterventionActorPolicy
+from causal_world.intervention_actors.curriculum_actor import \
+    CurriculumInterventionActorPolicy 
 from causal_world.intervention_actors.base_actor import \
     BaseInterventionActorPolicy

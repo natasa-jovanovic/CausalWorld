@@ -155,10 +155,14 @@ if __name__ == '__main__':
 
     tensorboard_logging = True
 
-    args = vars(parser.parse_args())
-    model_num = int(args['model_num'])
-    task = str(args['task'])
-    output_path = str(args['output_path'])
+    #args = vars(parser.parse_args())
+    # model_num = int(args['model_num'])
+    # task = str(args['task'])
+    # output_path = str(args['output_path'])
+    # output_path = os.path.join(output_path, str(model_num))
+    model_num = 1
+    task = "pushing"
+    output_path = "experiments-pushing"
     output_path = os.path.join(output_path, str(model_num))
     try:
         os.makedirs(output_path)

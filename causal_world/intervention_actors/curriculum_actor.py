@@ -3,7 +3,7 @@ from causal_world.intervention_actors.base_actor import \
 import numpy as np
 
 
-class RandomInterventionActorPolicy(BaseInterventionActorPolicy):
+class CurriculumInterventionActorPolicy(BaseInterventionActorPolicy):
 
     def __init__(self, **kwargs):
         """
@@ -13,7 +13,7 @@ class RandomInterventionActorPolicy(BaseInterventionActorPolicy):
 
         :param kwargs:
         """
-        super(RandomInterventionActorPolicy, self).__init__()
+        super(CurriculumInterventionActorPolicy, self).__init__()
         self.task_intervention_space = None
         self.random = 1
 
