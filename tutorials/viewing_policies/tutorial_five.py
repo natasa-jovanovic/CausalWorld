@@ -3,7 +3,7 @@ This tutorial shows you how to to view policies of trained actors.
 """
 
 from causal_world.task_generators.task import generate_task
-from stable_baselines import PPO2
+from causal_world.stable_baselines import PPO2
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 import causal_world.viewers.task_viewer as viewer
@@ -18,8 +18,8 @@ def example():
     world_params = dict()
     world_params["skip_frame"] = 3
     world_params["seed"] = 0
-    stable_baselines_policy_path = "./model_100000000_steps.zip"
-    model = PPO2.load(stable_baselines_policy_path)
+    causal_world.stable_baselines_policy_path = "./model_100000000_steps.zip"
+    model = PPO2.load(causal_world.stable_baselines_policy_path)
 
     # define a method for the policy fn of your trained model
     def policy_fn(obs):

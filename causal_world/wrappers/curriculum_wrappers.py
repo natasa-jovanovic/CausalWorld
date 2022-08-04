@@ -24,6 +24,9 @@ class CurriculumWrapper(gym.Wrapper):
         })
         self._elapsed_episodes = -1
         self._elapsed_timesteps = 0
+        self._total_elapsed_timesteps = 0
+        self._total_timesteps = 1e7
+
         return
 
     def step(self, action):
@@ -41,11 +44,13 @@ class CurriculumWrapper(gym.Wrapper):
         observation, reward, done, info = self.env.step(action)
         invalid_interventions = 0
         self._elapsed_timesteps += 1
+        self._total_elapsed_timesteps += 1
         interventions_dict = \
             self.interventions_curriculum.get_interventions(
                 current_task_params=self.env.get_current_state_variables(),
                 episode=self._elapsed_episodes,
-                time_step=self._elapsed_timesteps)
+                time_step=self._elapsed_timesteps,
+                ratio=self._total_elapsed_timesteps / self._total_timesteps)
         if interventions_dict is not None:
             success_signal, observation = \
                 self.env.do_intervention(interventions_dict=
@@ -56,7 +61,8 @@ class CurriculumWrapper(gym.Wrapper):
                     self.interventions_curriculum.get_interventions(
                         current_task_params=self.env.get_current_state_variables(),
                         episode=self._elapsed_episodes,
-                        time_step=self._elapsed_timesteps)
+                        time_step=self._elapsed_timesteps,
+                        ratio = self._total_elapsed_timesteps / self._total_timesteps)
                 if interventions_dict is not None:
                     success_signal, observation = \
                         self.env.do_intervention(interventions_dict=
@@ -79,7 +85,8 @@ class CurriculumWrapper(gym.Wrapper):
             self.interventions_curriculum.get_interventions(
                 current_task_params=self.env.get_current_state_variables(),
                 episode=self._elapsed_episodes,
-                time_step=0)
+                time_step=0,
+                ratio = self._total_elapsed_timesteps / self._total_timesteps)
         if interventions_dict is not None:
             success_signal, obs = self.env.set_starting_state(interventions_dict)
             while not success_signal and invalid_interventions < 5:
@@ -88,7 +95,8 @@ class CurriculumWrapper(gym.Wrapper):
                     self.interventions_curriculum.get_interventions(
                         current_task_params=self.env.get_current_state_variables(),
                         episode=self._elapsed_episodes,
-                        time_step=0)
+                        time_step=0,
+                        ratio = self._total_elapsed_timesteps / self._total_timesteps)
                 if interventions_dict is not None:
                     success_signal, obs = self.env.set_starting_state(
                         interventions_dict)

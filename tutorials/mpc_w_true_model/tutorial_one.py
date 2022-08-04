@@ -2,7 +2,7 @@
 This tutorial shows you how to use Model Predictive Control
 with the true model.
 """
-from stable_baselines.common import set_global_seeds
+from causal_world.stable_baselines.common import set_global_seeds
 from causal_world.envs.causalworld import CausalWorld
 from causal_world.dynamics_model import SimulatorModel
 from causal_world.utils.mpc_optimizers import \

@@ -5,7 +5,7 @@ an evaluation pipeline compromised of different evaluation protocols.
 from causal_world.evaluation import EvaluationPipeline
 from causal_world.benchmark import PUSHING_BENCHMARK
 import causal_world.evaluation.visualization.visualiser as vis
-from stable_baselines import PPO2
+from causal_world.stable_baselines import PPO2
 
 
 def compare_controllers():
@@ -22,10 +22,10 @@ def compare_controllers():
                                      task_params=task_params,
                                      world_params=world_params,
                                      visualize_evaluation=False)
-    stable_baselines_policy_path_1 = "./model_pushing_curr0.zip"
-    stable_baselines_policy_path_2 = "./model_pushing_curr1.zip"
-    model_1 = PPO2.load(stable_baselines_policy_path_1)
-    model_2 = PPO2.load(stable_baselines_policy_path_2)
+    causal_world.stable_baselines_policy_path_1 = "./model_pushing_curr0.zip"
+    causal_world.stable_baselines_policy_path_2 = "./model_pushing_curr1.zip"
+    model_1 = PPO2.load(causal_world.stable_baselines_policy_path_1)
+    model_2 = PPO2.load(causal_world.stable_baselines_policy_path_2)
 
     def policy_fn_1(obs):
         return model_1.predict(obs, deterministic=True)[0]

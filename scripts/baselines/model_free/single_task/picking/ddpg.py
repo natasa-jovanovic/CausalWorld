@@ -1,13 +1,13 @@
 from causal_world.task_generators.task import generate_task
 from causal_world.envs.causalworld import CausalWorld
-from stable_baselines.ddpg.policies import MlpPolicy
-from stable_baselines.common.noise import NormalActionNoise, OrnsteinUhlenbeckActionNoise, AdaptiveParamNoiseSpec
-from stable_baselines import DDPG
+from causal_world.stable_baselines.ddpg.policies import MlpPolicy
+from causal_world.stable_baselines.common.noise import NormalActionNoise, OrnsteinUhlenbeckActionNoise, AdaptiveParamNoiseSpec
+from causal_world.stable_baselines import DDPG
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 import mpi4py
 from mpi4py import MPI
-from stable_baselines.common.callbacks import CheckpointCallback
+from causal_world.stable_baselines.common.callbacks import CheckpointCallback
 import numpy as np
 
 

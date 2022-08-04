@@ -1,4 +1,4 @@
-from stable_baselines.common.vec_env import SubprocVecEnv
+from causal_world.stable_baselines.common.vec_env import SubprocVecEnv
 import numpy as np
 
 

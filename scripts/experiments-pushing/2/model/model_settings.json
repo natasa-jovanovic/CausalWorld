@@ -1,0 +1,146 @@
+{
+    "benchmarks": {
+        "task_generator_id": "pushing",
+        "evaluation_protocols": [
+            {
+                "name": "P0",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "",
+                "_second_level_regex": "",
+                "_variable_space": "space_a_b"
+            },
+            {
+                "name": "P1",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "tool_block",
+                "_second_level_regex": "mass",
+                "_variable_space": "space_a"
+            },
+            {
+                "name": "P2",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "tool_block",
+                "_second_level_regex": "mass",
+                "_variable_space": "space_b"
+            },
+            {
+                "name": "P3",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "tool_block",
+                "_second_level_regex": "size",
+                "_variable_space": "space_a"
+            },
+            {
+                "name": "P4",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "tool_block",
+                "_second_level_regex": "cylindrical_position",
+                "_variable_space": "space_a"
+            },
+            {
+                "name": "P5",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "goal_block",
+                "_second_level_regex": "cylindrical_position",
+                "_variable_space": "space_a"
+            },
+            {
+                "name": "P6",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "goal_block|tool_block",
+                "_second_level_regex": "cylindrical_position",
+                "_variable_space": "space_b"
+            },
+            {
+                "name": "P7",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "goal_block|tool_block",
+                "_second_level_regex": "cylindrical_position|mass",
+                "_variable_space": "space_a"
+            },
+            {
+                "name": "P8",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "goal_block|tool_block",
+                "_second_level_regex": "cylindrical_position|mass",
+                "_variable_space": "space_b"
+            },
+            {
+                "name": "P9",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_first_level_regex": "goal_block|tool_block|floor_friction",
+                "_second_level_regex": "cylindrical_position|mass",
+                "_variable_space": "space_b"
+            },
+            {
+                "name": "P10",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_variable_space": "space_a"
+            },
+            {
+                "name": "P11",
+                "num_evaluation_episodes_default": 200,
+                "num_evaluation_episodes": 200,
+                "_variable_space": "space_b"
+            }
+        ]
+    },
+    "world_params": {
+        "skip_frame": 3,
+        "enable_visualization": false,
+        "observation_mode": "structured",
+        "normalize_observations": true,
+        "action_mode": "joint_positions"
+    },
+    "task_configs": {
+        "variables_space": "space_a",
+        "fractional_reward_weight": 1,
+        "dense_reward_weights": [
+            750,
+            250,
+            0
+        ]
+    },
+    "num_of_envs": 20,
+    "algorithm": "PPO",
+    "validate_every_timesteps": 20000,
+    "total_time_steps": 10000000,
+    "train_configs": {
+        "gamma": 0.99,
+        "n_steps": 60,
+        "ent_coef": 0.01,
+        "learning_rate": 0.00025,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "nminibatches": 40,
+        "noptepochs": 4
+    },
+    "intervention_actors": [
+        "CurriculumInterventionActorPolicy"
+    ],
+    "actives": [
+        [
+            0,
+            1000000.0,
+            70,
+            0
+        ]
+    ],
+    "seed": 2,
+    "world_seed": 0,
+    "NET_LAYERS": [
+        256,
+        256
+    ]
+}

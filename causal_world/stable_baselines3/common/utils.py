@@ -10,7 +10,7 @@ import gym
 import numpy as np
 import torch as th
 
-import stable_baselines3 as sb3
+import causal_world.stable_baselines3 as sb3
 
 # Check if tensorboard is available for pytorch
 try:
@@ -18,8 +18,8 @@ try:
 except ImportError:
     SummaryWriter = None
 
-from stable_baselines3.common.logger import Logger, configure
-from stable_baselines3.common.type_aliases import GymEnv, Schedule, TensorDict, TrainFreq, TrainFrequencyUnit
+from causal_world.stable_baselines3.common.logger import Logger, configure
+from causal_world.stable_baselines3.common.type_aliases import GymEnv, Schedule, TensorDict, TrainFreq, TrainFrequencyUnit
 
 
 def set_random_seed(seed: int, using_cuda: bool = False) -> None:

@@ -4,9 +4,9 @@ import gym
 import torch as th
 from torch import nn
 
-from stable_baselines3.common.policies import BasePolicy, ContinuousCritic
-from stable_baselines3.common.preprocessing import get_action_dim
-from stable_baselines3.common.torch_layers import (
+from causal_world.stable_baselines3.common.policies import BasePolicy, ContinuousCritic
+from causal_world.stable_baselines3.common.preprocessing import get_action_dim
+from causal_world.stable_baselines3.common.torch_layers import (
     BaseFeaturesExtractor,
     CombinedExtractor,
     FlattenExtractor,
@@ -14,7 +14,7 @@ from stable_baselines3.common.torch_layers import (
     create_mlp,
     get_actor_critic_arch,
 )
-from stable_baselines3.common.type_aliases import Schedule
+from causal_world.stable_baselines3.common.type_aliases import Schedule
 
 
 class Actor(BasePolicy):

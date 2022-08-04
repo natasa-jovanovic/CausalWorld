@@ -1,5 +1,5 @@
 """
-Save util taken from stable_baselines
+Save util taken from causal_world.stable_baselines
 used to serialize data (class parameters) of model classes
 """
 import base64
@@ -16,9 +16,9 @@ from typing import Any, Dict, Optional, Tuple, Union
 import cloudpickle
 import torch as th
 
-import stable_baselines3 as sb3
-from stable_baselines3.common.type_aliases import TensorDict
-from stable_baselines3.common.utils import get_device, get_system_info
+import causal_world.stable_baselines3 as sb3
+from causal_world.stable_baselines3.common.type_aliases import TensorDict
+from causal_world.stable_baselines3.common.utils import get_device, get_system_info
 
 
 def recursive_getattr(obj: Any, attr: str, *args) -> Any:
@@ -321,7 +321,7 @@ def save_to_zip_file(
                 with archive.open(file_name + ".pth", mode="w", force_zip64=True) as param_file:
                     th.save(dict_, param_file)
         # Save metadata: library version when file was saved
-        archive.writestr("_stable_baselines3_version", sb3.__version__)
+        archive.writestr("_causal_world.stable_baselines3_version", sb3.__version__)
         # Save system info about the current python env
         archive.writestr("system_info.txt", get_system_info(print_info=False)[1])
 

@@ -9,13 +9,13 @@ from causal_world.task_generators.task import generate_task
 from causal_world.envs.causalworld import CausalWorld
 import causal_world.evaluation.visualization.visualiser as vis
 
-from stable_baselines import PPO2
-from stable_baselines.common.policies import MlpPolicy
+from causal_world.stable_baselines import PPO2
+from causal_world.stable_baselines.common.policies import MlpPolicy
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 import os
-from stable_baselines.common import set_global_seeds
-from stable_baselines.common.vec_env import SubprocVecEnv
+from causal_world.stable_baselines.common import set_global_seeds
+from causal_world.stable_baselines.common.vec_env import SubprocVecEnv
 
 log_relative_path = './pushing_policy_tutorial_3'
 

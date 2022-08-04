@@ -5,13 +5,13 @@ import numpy as np
 import torch as th
 from torch.nn import functional as F
 
-from stable_baselines3.common.buffers import ReplayBuffer
-from stable_baselines3.common.noise import ActionNoise
-from stable_baselines3.common.off_policy_algorithm import OffPolicyAlgorithm
-from stable_baselines3.common.policies import BasePolicy
-from stable_baselines3.common.type_aliases import GymEnv, MaybeCallback, Schedule
-from stable_baselines3.common.utils import polyak_update
-from stable_baselines3.td3.policies import CnnPolicy, MlpPolicy, MultiInputPolicy, TD3Policy
+from causal_world.stable_baselines3.common.buffers import ReplayBuffer
+from causal_world.stable_baselines3.common.noise import ActionNoise
+from causal_world.stable_baselines3.common.off_policy_algorithm import OffPolicyAlgorithm
+from causal_world.stable_baselines3.common.policies import BasePolicy
+from causal_world.stable_baselines3.common.type_aliases import GymEnv, MaybeCallback, Schedule
+from causal_world.stable_baselines3.common.utils import polyak_update
+from causal_world.stable_baselines3.td3.policies import CnnPolicy, MlpPolicy, MultiInputPolicy, TD3Policy
 
 
 class TD3(OffPolicyAlgorithm):

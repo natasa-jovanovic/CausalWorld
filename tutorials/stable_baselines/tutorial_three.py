@@ -2,7 +2,7 @@
 This tutorial shows you how to visualize a policy trained with stable baselines
 """
 from causal_world.task_generators.task import generate_task
-from stable_baselines import SAC
+from causal_world.stable_baselines import SAC
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 from causal_world.envs.causalworld import CausalWorld

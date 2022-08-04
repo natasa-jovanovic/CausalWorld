@@ -13,7 +13,7 @@ class Curriculum(object):
         self.intervention_actors = intervention_actors
         self.actives = actives
 
-    def get_interventions(self, current_task_params, episode, time_step):
+    def get_interventions(self, current_task_params, episode, time_step, ratio):
         """
 
         :param current_task_params: (dict) specifies the current variables in
@@ -32,9 +32,10 @@ class Curriculum(object):
             episode_hold = (episode - active[0]) % active[2] == 0
             time_step_hold = time_step == active[3]
             if in_episode and episode_hold and time_step_hold:
-                if list(self.intervention_actors[actor_index].get_params().keys)[0] == "curriculum_actor":
+                if list(self.intervention_actors[actor_index].get_params())[0] == "curriculum_actor":
+                    ratio_parameter = 1
                     interventions_dict.update(
-                        self.intervention_actors[actor_index].act(
+                        self.intervention_actors[actor_index].act_ratio(
                             current_task_params, episode / 40 if episode < 40 else 1))
                 else:
                     interventions_dict.update(

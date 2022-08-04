@@ -1,11 +1,11 @@
 from causal_world.task_generators.task import generate_task
 from causal_world.envs.causalworld import CausalWorld
-from stable_baselines import HER, SAC
-from stable_baselines.sac.policies import MlpPolicy
+from causal_world.stable_baselines import HER, SAC
+from causal_world.stable_baselines.sac.policies import MlpPolicy
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-from stable_baselines.common import set_global_seeds
-from stable_baselines.common.callbacks import CheckpointCallback
+from causal_world.stable_baselines.common import set_global_seeds
+from causal_world.stable_baselines.common.callbacks import CheckpointCallback
 from causal_world.wrappers.env_wrappers import HERGoalEnvWrapper
 from causal_world.intervention_actors import GoalInterventionActorPolicy
 from causal_world.wrappers.curriculum_wrappers import CurriculumWrapper

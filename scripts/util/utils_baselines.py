@@ -1,12 +1,12 @@
-from stable_baselines.common.vec_env import SubprocVecEnv
-from stable_baselines import TD3, PPO2, SAC
-from stable_baselines.td3.policies import MlpPolicy as TD3MlpPolicy
-from stable_baselines.sac.policies import MlpPolicy as SACMlpPolicy
-from stable_baselines.common.policies import MlpPolicy
-from stable_baselines.ddpg.noise import NormalActionNoise
-from stable_baselines.bench.monitor import Monitor
-from stable_baselines.common import set_global_seeds
-from stable_baselines.common.callbacks import CheckpointCallback
+from causal_world.stable_baselines.common.vec_env import SubprocVecEnv
+from causal_world.stable_baselines import TD3, PPO2, SAC
+from causal_world.stable_baselines.td3.policies import MlpPolicy as TD3MlpPolicy
+from causal_world.stable_baselines.sac.policies import MlpPolicy as SACMlpPolicy
+from causal_world.stable_baselines.common.policies import MlpPolicy
+from causal_world.stable_baselines.ddpg.noise import NormalActionNoise
+from causal_world.stable_baselines.bench.monitor import Monitor
+from causal_world.stable_baselines.common import set_global_seeds
+from causal_world.stable_baselines.common.callbacks import CheckpointCallback
 
 from causal_world.task_generators.task import generate_task
 from causal_world.envs.causalworld import CausalWorld

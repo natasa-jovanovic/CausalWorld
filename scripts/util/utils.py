@@ -2,7 +2,7 @@ import os
 import re
 import json
 import numpy as np
-from stable_baselines.common.callbacks import BaseCallback
+from causal_world.stable_baselines.common.callbacks import BaseCallback
 
 
 def checkpoints_in_folder(folder):

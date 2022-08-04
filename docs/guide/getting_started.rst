@@ -80,10 +80,10 @@ Set Up Your Learning Curriculum
 Training Agents
 ----------------
 
-.. literalinclude:: ../../tutorials/stable_baselines/tutorial_one.py
+.. literalinclude:: ../../tutorials/causal_world.stable_baselines/tutorial_one.py
    :language: python
 
-.. literalinclude:: ../../tutorials/stable_baselines/tutorial_two.py
+.. literalinclude:: ../../tutorials/causal_world.stable_baselines/tutorial_two.py
    :language: python
 
 -------------------------------------------

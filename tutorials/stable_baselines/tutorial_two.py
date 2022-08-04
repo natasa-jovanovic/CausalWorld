@@ -4,13 +4,13 @@ SAC + HER
 """
 from causal_world.task_generators.task import generate_task
 from causal_world.envs.causalworld import CausalWorld
-from stable_baselines import HER, SAC
+from causal_world.stable_baselines import HER, SAC
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 import os
 import json
-from stable_baselines.common import set_global_seeds
-from stable_baselines.common.vec_env import SubprocVecEnv
+from causal_world.stable_baselines.common import set_global_seeds
+from causal_world.stable_baselines.common.vec_env import SubprocVecEnv
 from causal_world.wrappers.env_wrappers import HERGoalEnvWrapper
 import argparse
 

@@ -3,7 +3,7 @@ import os
 try:
     import tensorflow as tf
     tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-    from stable_baselines import PPO2
+    from causal_world.stable_baselines import PPO2
 except ImportError:
     pass
 
