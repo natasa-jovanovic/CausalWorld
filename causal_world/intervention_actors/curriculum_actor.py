@@ -40,7 +40,7 @@ class CurriculumInterventionActorPolicy(BaseInterventionActorPolicy):
                 interventions_dict[variable] = dict()
                 for subvariable_name in self.task_intervention_space[variable]:
 
-                    if subvariable_name in ["size", "mass", "cylindrical_position"]:
+                    if subvariable_name in ["size", "cylindrical_position", "mass"]:
                         interventions_dict[variable][subvariable_name] =\
                             np.random.uniform(
                             self.task_intervention_space[variable][subvariable_name][0],

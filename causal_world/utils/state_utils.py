@@ -1,3 +1,5 @@
+import numpy as np
+
 def get_intersection(bb1, bb2):
     """
 
@@ -22,6 +24,20 @@ def get_intersection(bb1, bb2):
 
     return intersection_area
 
+def get_distance(bb1, bb2):
+
+    x_mid_1 = (bb1[0][0] + bb1[1][0]) / 2
+    x_mid_2 = (bb2[0][0] + bb2[1][0]) / 2
+
+    y_mid_1 = (bb1[0][1] + bb1[1][1]) / 2
+    y_mid_2 = (bb2[0][1] + bb2[1][1]) / 2
+
+    z_mid_1 = (bb1[0][1] + bb1[1][1]) / 2
+    z_mid_2 = (bb2[0][1] + bb2[1][1]) / 2
+
+    distance = np.sqrt((x_mid_2 - x_mid_1) ** 2 + (y_mid_1 - y_mid_2) ** 2 + (z_mid_1 - z_mid_2) ** 2)
+
+    return distance
 
 def get_iou(bb1, bb2, area1, area2):
     """

@@ -25,7 +25,7 @@ class CurriculumWrapper(gym.Wrapper):
         self._elapsed_episodes = -1
         self._elapsed_timesteps = 0
         self._total_elapsed_timesteps = 0
-        self._total_timesteps = 1e7
+        self._total_timesteps = 2.5e6 * 4 / 5
 
         return
 

@@ -3,6 +3,7 @@ import gym
 import pybullet
 import pybullet_data
 import os
+import causal_world.task_generators as tg
 from causal_world.envs.robot.trifinger import TriFingerRobot
 from causal_world.envs.scene.stage import Stage
 from causal_world.loggers.tracker import Tracker
@@ -10,6 +11,7 @@ from causal_world.utils.env_utils import combine_spaces
 from causal_world.task_generators.task import generate_task
 from causal_world.envs.robot.camera import Camera
 from causal_world.configs.world_constants import WorldConstants
+from causal_world.task_generators.base_task import BaseTask
 import copy
 import logging
 logging.getLogger().setLevel(logging.INFO)
@@ -351,6 +353,9 @@ class CausalWorld(gym.Env):
                             the environment. Again, it follows the
                             observation_mode specified.
         """
+        #distance_result = BaseTask.episode_end_bounding_box_distance()
+        #with open(r"C:\Users\psiml8\CausalWorld\scripts\experiments-pushing\0\log_episode distance.txt", "a") as file_object:
+        #                   file_object.write(distance_result + "\n")
         self._tracker.add_episode_experience(self._episode_length)
         self._episode_length = 0
         success_signal, interventions_info, reset_observation_space_signal = \

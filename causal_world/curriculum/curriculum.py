@@ -33,10 +33,10 @@ class Curriculum(object):
             time_step_hold = time_step == active[3]
             if in_episode and episode_hold and time_step_hold:
                 if list(self.intervention_actors[actor_index].get_params())[0] == "curriculum_actor":
-                    ratio_parameter = 1
+                    ratio_parameter = round(10000 * ratio // 125) / 10000 if ratio < 1 else 1
                     interventions_dict.update(
                         self.intervention_actors[actor_index].act_ratio(
-                            current_task_params, episode / 40 if episode < 40 else 1))
+                            current_task_params, ratio_parameter))
                 else:
                     interventions_dict.update(
                         self.intervention_actors[actor_index].act(

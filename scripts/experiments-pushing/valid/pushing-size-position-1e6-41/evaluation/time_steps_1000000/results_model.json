@@ -1,0 +1,194 @@
+{
+    "P0": {
+        "mean_full_integrated_fractional_success": 0.009921266274299723,
+        "std_full_integrated_fractional_success": 1.734723475976807e-18,
+        "mean_last_integrated_fractional_success": 0.033326480928826674,
+        "std_last_integrated_fractional_success": 1.3877787807814457e-17,
+        "mean_last_fractional_success": 0.0,
+        "std_last_fractional_success": 0.0,
+        "total_intervention_steps": 200,
+        "total_interventions": 0,
+        "total_timesteps": 165966,
+        "total_resets": 199
+    },
+    "P1": {
+        "mean_full_integrated_fractional_success": 0.006046320024665596,
+        "std_full_integrated_fractional_success": 0.00499322605006838,
+        "mean_last_integrated_fractional_success": 0.00716456928641239,
+        "std_last_integrated_fractional_success": 0.010900924967008533,
+        "mean_last_fractional_success": 0.00827768630262123,
+        "std_last_fractional_success": 0.020806476794564474,
+        "total_intervention_steps": 400,
+        "total_interventions": 200,
+        "total_timesteps": 332766,
+        "total_resets": 399
+    },
+    "P2": {
+        "mean_full_integrated_fractional_success": 0.00022526287041058326,
+        "std_full_integrated_fractional_success": 0.0004909244918074239,
+        "mean_last_integrated_fractional_success": 0.00028812075138540984,
+        "std_last_integrated_fractional_success": 0.0018188215555821738,
+        "mean_last_fractional_success": 0.00017463917389423124,
+        "std_last_fractional_success": 0.0014913530957884082,
+        "total_intervention_steps": 600,
+        "total_interventions": 400,
+        "total_timesteps": 499566,
+        "total_resets": 599
+    },
+    "P3": {
+        "mean_full_integrated_fractional_success": 0.027098807452588653,
+        "std_full_integrated_fractional_success": 0.0409792691661808,
+        "mean_last_integrated_fractional_success": 0.026826264942812345,
+        "std_last_integrated_fractional_success": 0.052789208506633975,
+        "mean_last_fractional_success": 0.027288960189038935,
+        "std_last_fractional_success": 0.05238955701304028,
+        "total_intervention_steps": 800,
+        "total_interventions": 600,
+        "total_timesteps": 666366,
+        "total_resets": 799
+    },
+    "P4": {
+        "mean_full_integrated_fractional_success": 0.025011466524899793,
+        "std_full_integrated_fractional_success": 0.05391800440733336,
+        "mean_last_integrated_fractional_success": 0.020003635370742793,
+        "std_last_integrated_fractional_success": 0.06657525610904245,
+        "mean_last_fractional_success": 0.017991007967815175,
+        "std_last_fractional_success": 0.08002791631613856,
+        "total_intervention_steps": 1000,
+        "total_interventions": 800,
+        "total_timesteps": 833166,
+        "total_resets": 999
+    },
+    "P5": {
+        "mean_full_integrated_fractional_success": 0.18513612063372634,
+        "std_full_integrated_fractional_success": 0.30557172972188335,
+        "mean_last_integrated_fractional_success": 0.18790109661914367,
+        "std_last_integrated_fractional_success": 0.3175532926388099,
+        "mean_last_fractional_success": 0.19653061176562517,
+        "std_last_fractional_success": 0.33750176255015873,
+        "total_intervention_steps": 1200,
+        "total_interventions": 1000,
+        "total_timesteps": 999966,
+        "total_resets": 1199
+    },
+    "P6": {
+        "mean_full_integrated_fractional_success": 0.031695324804367014,
+        "std_full_integrated_fractional_success": 0.09292301552041121,
+        "mean_last_integrated_fractional_success": 0.027505792123501526,
+        "std_last_integrated_fractional_success": 0.08911401589273459,
+        "mean_last_fractional_success": 0.025393446139559055,
+        "std_last_fractional_success": 0.09334106174368584,
+        "total_intervention_steps": 1423,
+        "total_interventions": 1446,
+        "total_timesteps": 1166766,
+        "total_resets": 1399
+    },
+    "P7": {
+        "mean_full_integrated_fractional_success": 0.35765412666825386,
+        "std_full_integrated_fractional_success": 0.37267805456694897,
+        "mean_last_integrated_fractional_success": 0.35011243274464404,
+        "std_last_integrated_fractional_success": 0.369327344028479,
+        "mean_last_fractional_success": 0.36379756444910316,
+        "std_last_fractional_success": 0.3892164742620987,
+        "total_intervention_steps": 1623,
+        "total_interventions": 1846,
+        "total_timesteps": 1333566,
+        "total_resets": 1599
+    },
+    "P8": {
+        "mean_full_integrated_fractional_success": 0.042039596276202705,
+        "std_full_integrated_fractional_success": 0.12642709869933358,
+        "mean_last_integrated_fractional_success": 0.041435855341357755,
+        "std_last_integrated_fractional_success": 0.12815903661153927,
+        "mean_last_fractional_success": 0.038747119355669525,
+        "std_last_fractional_success": 0.12987891243114938,
+        "total_intervention_steps": 1837,
+        "total_interventions": 2274,
+        "total_timesteps": 1500366,
+        "total_resets": 1799
+    },
+    "P9": {
+        "mean_full_integrated_fractional_success": 0.0303503162073161,
+        "std_full_integrated_fractional_success": 0.10419949123945421,
+        "mean_last_integrated_fractional_success": 0.025826662298225965,
+        "std_last_integrated_fractional_success": 0.09673780423615051,
+        "mean_last_fractional_success": 0.023503324851403492,
+        "std_last_fractional_success": 0.09748822530554062,
+        "total_intervention_steps": 2054,
+        "total_interventions": 2925,
+        "total_timesteps": 1667166,
+        "total_resets": 1999
+    },
+    "P10": {
+        "mean_full_integrated_fractional_success": 0.16813177716146924,
+        "std_full_integrated_fractional_success": 0.247261818264722,
+        "mean_last_integrated_fractional_success": 0.1647092131834806,
+        "std_last_integrated_fractional_success": 0.2532985800102327,
+        "mean_last_fractional_success": 0.16428706426731576,
+        "std_last_fractional_success": 0.26072426898020856,
+        "total_intervention_steps": 2254,
+        "total_interventions": 6525,
+        "total_timesteps": 1833966,
+        "total_resets": 2199
+    },
+    "P11": {
+        "mean_full_integrated_fractional_success": 0.031838693804297866,
+        "std_full_integrated_fractional_success": 0.07652713372691759,
+        "mean_last_integrated_fractional_success": 0.03677762974482426,
+        "std_last_integrated_fractional_success": 0.08642079837024334,
+        "mean_last_fractional_success": 0.03648211965729233,
+        "std_last_fractional_success": 0.08791407420042323,
+        "total_intervention_steps": 2459,
+        "total_interventions": 10215,
+        "total_timesteps": 2000766,
+        "total_resets": 2399
+    },
+    "world_params": {
+        "skip_frame": 1,
+        "enable_visualization": false,
+        "observation_mode": "structured",
+        "normalize_observations": true,
+        "action_mode": "joint_positions"
+    },
+    "task_configs": {
+        "variables_space": "space_a",
+        "fractional_reward_weight": 1,
+        "dense_reward_weights": [
+            750,
+            250,
+            0
+        ]
+    },
+    "num_of_envs": 1,
+    "algorithm": "SAC",
+    "validate_every_timesteps": 50000,
+    "total_time_steps": 1000000,
+    "train_configs": {
+        "gamma": 0.95,
+        "tau": 0.001,
+        "ent_coef": 0.001,
+        "target_entropy": "auto",
+        "learning_rate": 0.0001,
+        "buffer_size": 100000,
+        "learning_starts": 1000,
+        "batch_size": 256
+    },
+    "intervention_actors": [
+        "str"
+    ],
+    "actives": [
+        [
+            0,
+            1000000000.0,
+            1,
+            0
+        ]
+    ],
+    "seed": 0,
+    "world_seed": 0,
+    "NET_LAYERS": [
+        256,
+        256
+    ],
+    "model_num": 0
+}

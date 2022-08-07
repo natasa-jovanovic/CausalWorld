@@ -1,0 +1,91 @@
+c:\Users\psiml8\Anaconda3\envs\causal_world\lib\site-packages\stable_baselines\__init__.py:33: UserWarning: stable-baselines is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documentation.
+  "stable-baselines is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documentation."
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9F6ECA708>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9F6ECA708>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9E5C45D48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9E5C45D48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9E5C45D48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9E5C45D48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6C4F548>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6C4F548>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6C4F548>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6C4F548>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9FA173648>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9FA173648>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA1B3E48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA1B3E48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6D47408>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6D47408>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA06E488>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA06E488>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA07B548>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA07B548>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA07B548>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA07B548>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA1DAD88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA1DAD88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9FA1B3F88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9FA1B3F88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6EB9708>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9F6EB9708>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA25E4C8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA25E4C8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA1B3B48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA1B3B48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA20AE08>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA20AE08>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA28AB08>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA28AB08>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9FA1B3E08>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000001A9FA1B3E08>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA2E4708>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA2E4708>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA2E4708>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA2E4708>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000001A9FA14FB48>>: AttributeError: module 'gast' has no attribute 'Index'
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 2.7882085    |
+| ep_rewmean              | 3.87         |
+| episodes                | 4            |
+| eplenmean               | 834          |
+| fps                     | 89           |
+| mean 100 episode reward | 3.9          |
+| n_updates               | 2337         |
+| policy_loss             | 1.3005626    |
+| qf1_loss                | 0.0031579267 |
+| qf2_loss                | 0.003222541  |
+| time_elapsed            | 37           |
+| total timesteps         | 3336         |
+| value_loss              | 0.0007630269 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 1.8639526     |
+| ep_rewmean              | 5.41          |
+| episodes                | 8             |
+| eplenmean               | 834           |
+| fps                     | 85            |
+| mean 100 episode reward | 5.4           |
+| n_updates               | 5673          |
+| policy_loss             | 0.89258707    |
+| qf1_loss                | 0.0006272035  |
+| qf2_loss                | 0.00061056996 |
+| time_elapsed            | 77            |
+| total timesteps         | 6672          |
+| value_loss              | 0.00036588026 |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | -0.23980987  |
+| ep_rewmean              | 5.34         |
+| episodes                | 12           |
+| eplenmean               | 834          |
+| fps                     | 84           |
+| mean 100 episode reward | 5.3          |
+| n_updates               | 9009         |
+| policy_loss             | 0.59767294   |
+| qf1_loss                | 0.0014261204 |
+| qf2_loss                | 0.0010290899 |
+| time_elapsed            | 118          |
+| total timesteps         | 10008        |
+| value_loss              | 0.0008443034 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 0.48995554    |
+| ep_rewmean              | 4.74          |
+| episodes                | 16            |
+| eplenmean               | 834           |
+| fps                     | 83            |
+| mean 100 episode reward | 4.7           |
+| n_updates               | 12345         |
+| policy_loss             | 0.2942637     |
+| qf1_loss                | 0.0009000075  |
+| qf2_loss                | 0.000866437   |
+| time_elapsed            | 159           |
+| total timesteps         | 13344         |
+| value_loss              | 0.00046040618 |

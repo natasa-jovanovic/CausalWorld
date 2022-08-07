@@ -1,7 +1,7 @@
 import numpy as np
 import math
 import copy
-from causal_world.utils.state_utils import get_bounding_box_volume
+from causal_world.utils.state_utils import get_bounding_box_volume, get_distance
 from causal_world.utils.state_utils import get_intersection
 from causal_world.utils.rotation_utils import cart2cyl
 from causal_world.utils.task_utils import combine_intervention_spaces
@@ -74,6 +74,7 @@ class BaseTask(object):
         self._create_world_func = None
         self._is_partial_solution_exposed = False
         self._is_ground_truth_state_exposed = False
+        self._starting_bounding_box = None
         return
 
     def set_intervention_space(self, variables_space):
@@ -261,6 +262,17 @@ class BaseTask(object):
         """
         return
 
+    def _set_starting_bounding_box(self):
+        if self._robot.get_dt() == 0:
+            self._starting_bounding_box = np.array(
+            [
+                rigid_object.get_bounding_box() 
+                for rigid_object in self._stage.get_rigid_objects().values()
+                if rigid_object.is_not_fixed()
+            ]
+        ) 
+        return
+
     def _handle_contradictory_interventions(self, interventions_dict):
         """
         handles the contradictory interventions that changes each other
@@ -420,6 +432,9 @@ class BaseTask(object):
                             intervention_space[visual_object]['euler_orientation'][1])
         return intervention_dict
 
+    def episode_end_bounding_box_distance(self):
+        return get_distance(self._starting_bounding_box, self.get_achieved_goal(self))
+
     def reset_default_state(self):
         """
         Resets the environment task to the default task setting of
@@ -448,6 +463,7 @@ class BaseTask(object):
                       [-0.69, 0,
                        0] * 3])
         #TODO: add the rest of the exposed variables here
+
         for rigid_object in self._stage.get_rigid_objects():
             self._intervention_space_a[rigid_object] = dict()
             if self._stage.get_rigid_objects(
@@ -460,13 +476,13 @@ class BaseTask(object):
             if self._stage.get_rigid_objects(
             )[rigid_object].__class__.__name__ == 'Cuboid':
                 self._intervention_space_a[rigid_object]['size'] = \
-                    np.array([[0.055, 0.055, 0.055], [0.075, 0.075, 0.075]])
+                    np.array([[0.01, 0.01, 0.01], [0.095, 0.095, 0.095]])
             self._intervention_space_a[rigid_object]['color'] = \
                 np.array([[0.5, 0.5, 0.5], [1, 1, 1]])
             if self._stage.get_rigid_objects(
             )[rigid_object].is_not_fixed():
                 self._intervention_space_a[rigid_object]['mass'] = \
-                    np.array([0.015, 0.045])
+                    np.array([0.015, 0.1])
         for visual_object in self._stage._visual_objects:
             self._intervention_space_a[visual_object] = dict()
             height = self._stage.get_object_state(visual_object, 'size')[-1]
@@ -477,7 +493,7 @@ class BaseTask(object):
             if self._stage.get_visual_objects(
             )[visual_object].__class__.__name__ == 'SCuboid':
                 self._intervention_space_a[visual_object]['size'] = \
-                    np.array([[0.055, 0.055, 0.055], [0.075, 0.075, 0.075]])
+                    np.array([[0.01, 0.01, 0.01], [0.095, 0.095, 0.095]])
             self._intervention_space_a[visual_object]['color'] = \
                 np.array([[0.5, 0.5, 0.5], [1, 1, 1]])
         self._intervention_space_a['floor_color'] = \
@@ -493,7 +509,7 @@ class BaseTask(object):
             self._intervention_space_a[link]['color'] = \
                 np.array([[0, 0, 0], [0.5, 0.5, 0.5]])
             self._intervention_space_a[link]['mass'] = \
-                np.array([0.015, 0.045])
+                np.array([0.015, 0.1])
         return
 
     def _set_intervention_space_b(self):
@@ -774,6 +790,8 @@ class BaseTask(object):
         self._set_intervention_space_a_b()
         self._set_task_state()
         return
+
+    
 
     def _calculate_time_left(self):
         """

@@ -1,0 +1,46 @@
+2022-08-05 15:04:34,023 INFO    MainThread:16112 [wandb_setup.py:_flush():76] Configure stats pid to 16112
+2022-08-05 15:04:34,023 INFO    MainThread:16112 [wandb_setup.py:_flush():76] Loading settings from C:\Users\psiml8\.config\wandb\settings
+2022-08-05 15:04:34,023 INFO    MainThread:16112 [wandb_setup.py:_flush():76] Loading settings from c:\Users\psiml8\CausalWorld\scripts\wandb\settings
+2022-08-05 15:04:34,023 INFO    MainThread:16112 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-08-05 15:04:34,023 INFO    MainThread:16112 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-08-05 15:04:34,024 INFO    MainThread:16112 [wandb_init.py:_log_setup():461] Logging user logs to c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_150434-1du4klf1\logs\debug.log
+2022-08-05 15:04:34,024 INFO    MainThread:16112 [wandb_init.py:_log_setup():462] Logging internal logs to c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_150434-1du4klf1\logs\debug-internal.log
+2022-08-05 15:04:34,024 INFO    MainThread:16112 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001C8F0B27348>
+2022-08-05 15:04:34,025 INFO    MainThread:16112 [wandb_init.py:init():495] calling init triggers
+2022-08-05 15:04:34,025 INFO    MainThread:16112 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {}
+2022-08-05 15:04:34,025 INFO    MainThread:16112 [wandb_init.py:init():548] starting backend
+2022-08-05 15:04:34,025 INFO    MainThread:16112 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-08-05 15:04:34,030 INFO    MainThread:16112 [backend.py:ensure_launched():217] starting backend process...
+2022-08-05 15:04:34,133 INFO    MainThread:16112 [backend.py:ensure_launched():222] started backend process with pid: 9236
+2022-08-05 15:04:34,134 INFO    MainThread:16112 [wandb_init.py:init():558] backend started and connected
+2022-08-05 15:04:34,217 INFO    MainThread:16112 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-08-05 15:04:34,218 INFO    MainThread:16112 [wandb_run.py:_label_probe_notebook():1094] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-08-05 15:04:34,218 INFO    MainThread:16112 [wandb_init.py:init():634] updated telemetry
+2022-08-05 15:04:34,290 INFO    MainThread:16112 [wandb_init.py:init():666] communicating run to backend with 30 second timeout
+2022-08-05 15:04:36,335 INFO    MainThread:16112 [wandb_run.py:_on_init():1919] communicating current version
+2022-08-05 15:04:36,376 INFO    MainThread:16112 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.13.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-08-05 15:04:36,376 INFO    MainThread:16112 [wandb_init.py:init():700] starting run threads in backend
+2022-08-05 15:04:41,401 INFO    MainThread:16112 [wandb_run.py:_console_start():1893] atexit reg
+2022-08-05 15:04:41,402 INFO    MainThread:16112 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.WRAP
+2022-08-05 15:04:41,402 INFO    MainThread:16112 [wandb_run.py:_redirect():1803] Wrapping output streams.
+2022-08-05 15:04:41,404 INFO    MainThread:16112 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-08-05 15:04:41,404 INFO    MainThread:16112 [wandb_init.py:init():732] run started, returning control to user process
+2022-08-05 15:04:41,404 INFO    MainThread:16112 [wandb_init.py:_pause_backend():374] pausing backend
+2022-08-05 15:04:41,405 INFO    MainThread:16112 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-08-05 15:04:41,620 INFO    MainThread:16112 [wandb_init.py:_resume_backend():383] resuming backend
+2022-08-05 15:04:41,691 INFO    MainThread:16112 [wandb_init.py:_pause_backend():374] pausing backend
+2022-08-05 15:04:41,691 INFO    MainThread:16112 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-08-05 15:04:41,729 INFO    MainThread:16112 [wandb_init.py:_resume_backend():383] resuming backend
+2022-08-05 15:04:41,768 INFO    MainThread:16112 [wandb_init.py:_pause_backend():374] pausing backend
+2022-08-05 15:04:41,768 INFO    MainThread:16112 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-08-05 15:04:41,805 INFO    MainThread:16112 [wandb_init.py:_resume_backend():383] resuming backend
+2022-08-05 15:04:41,808 INFO    MainThread:16112 [wandb_init.py:_pause_backend():374] pausing backend
+2022-08-05 15:04:41,809 INFO    MainThread:16112 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-08-05 15:04:41,861 INFO    MainThread:16112 [wandb_init.py:_resume_backend():383] resuming backend
+2022-08-05 15:04:41,975 INFO    MainThread:16112 [wandb_config.py:__setitem__():150] config set batch_size = 256 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C8F1538C88>>
+2022-08-05 15:04:41,975 INFO    MainThread:16112 [wandb_run.py:_config_callback():1131] config_cb batch_size 256 None
+2022-08-05 15:04:44,041 INFO    MainThread:16112 [wandb_run.py:_tensorboard_callback():1239] tensorboard callback: experiments-pushing\0\5\model\SAC_1, True
+2022-08-05 18:42:06,007 INFO    MainThread:16112 [wandb_init.py:_pause_backend():374] pausing backend
+2022-08-05 18:42:06,007 INFO    MainThread:16112 [jupyter.py:save_ipynb():377] not saving jupyter notebook

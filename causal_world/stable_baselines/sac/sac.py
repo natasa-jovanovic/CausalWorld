@@ -1,3 +1,4 @@
+from statistics import mean
 import time
 import warnings
 
@@ -11,6 +12,8 @@ from causal_world.stable_baselines.common.schedules import get_schedule_fn
 from causal_world.stable_baselines.common.buffers import ReplayBuffer
 from causal_world.stable_baselines.sac.policies import SACPolicy
 from causal_world.stable_baselines import logger
+
+import wandb
 
 
 class SAC(OffPolicyRLModel):
@@ -119,6 +122,9 @@ class SAC(OffPolicyRLModel):
         self.processed_obs_ph = None
         self.processed_next_obs_ph = None
         self.log_ent_coef = None
+
+        wconfig = wandb.config
+        wconfig.batch_size = self.batch_size
 
         if _init_setup_model:
             self.setup_model()
@@ -491,6 +497,8 @@ class SAC(OffPolicyRLModel):
                 # substract 1 as we appended a new term just now
                 num_episodes = len(episode_rewards) - 1 
                 # Display training infos
+
+                
                 if self.verbose >= 1 and done and log_interval is not None and num_episodes % log_interval == 0:
                     fps = int(step / (time.time() - start_time))
                     logger.logkv("episodes", num_episodes)
@@ -509,9 +517,16 @@ class SAC(OffPolicyRLModel):
                             logger.logkv(name, val)
                     logger.logkv("total timesteps", self.num_timesteps)
                     logger.dumpkvs()
+
+                    wandb.log({
+                        "Success Rate": np.mean(episode_rewards[-100:]),
+                        "Mean 100 Episode Reward": mean_reward
+                    })
                     # Reset infos:
+                    
                     infos_values = []
             callback.on_training_end()
+
             return self
 
     def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):

@@ -18,6 +18,8 @@ import os
 import numpy as np
 import tensorflow as tf
 
+import wandb
+
 
 def get_single_process_env(model_settings, model_path, ckpt_step):
     task = generate_task(model_settings['benchmarks']['task_generator_id'],

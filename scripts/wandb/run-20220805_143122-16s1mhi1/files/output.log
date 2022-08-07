@@ -1,0 +1,330 @@
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000002144CF47D88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x000002144CF47D88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450A64B48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450A64B48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450B62C08>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450B62C08>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000002144CF47D88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000002144CF47D88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000002144CF47D88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000002144CF47D88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000021450CF0FC8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000021450CF0FC8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450D30948>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450D30948>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1148>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1148>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1148>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1148>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1AC8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1AC8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1AC8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1AC8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C98288>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C98288>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C3C0C8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C3C0C8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C3C0C8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C3C0C8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF0848>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF0848>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000021450A3AB88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000021450A3AB88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1148>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CF1148>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C98288>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C98288>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000002144CE6D888>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x000002144CE6D888>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450A3AB88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450A3AB88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450A3AB88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450A3AB88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CA0448>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450CA0448>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000021450D306C8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000021450D306C8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450EB4608>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450EB4608>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C0FB08>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450C0FB08>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450EB4B88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000021450EB4B88>>: AttributeError: module 'gast' has no attribute 'Index'
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 4.860224      |
+| ep_rewmean              | 6.54          |
+| episodes                | 4             |
+| eplenmean               | 834           |
+| fps                     | 84            |
+| mean 100 episode reward | 6.5           |
+| n_updates               | 2337          |
+| policy_loss             | -0.15968022   |
+| qf1_loss                | 0.00073730864 |
+| qf2_loss                | 0.0007234119  |
+| time_elapsed            | 39            |
+| total timesteps         | 3336          |
+| value_loss              | 0.0002863602  |
+-------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 2.399434      |
+| ep_rewmean              | 6.78          |
+| episodes                | 8             |
+| eplenmean               | 834           |
+| fps                     | 81            |
+| mean 100 episode reward | 6.8           |
+| n_updates               | 5673          |
+| policy_loss             | -0.33667138   |
+| qf1_loss                | 0.0007904411  |
+| qf2_loss                | 0.00076130254 |
+| time_elapsed            | 82            |
+| total timesteps         | 6672          |
+| value_loss              | 0.00048495142 |
+-------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 2.090893      |
+| ep_rewmean              | 5.45          |
+| episodes                | 12            |
+| eplenmean               | 834           |
+| fps                     | 81            |
+| mean 100 episode reward | 5.4           |
+| n_updates               | 9009          |
+| policy_loss             | -0.5128672    |
+| qf1_loss                | 0.0013558549  |
+| qf2_loss                | 0.0012149623  |
+| time_elapsed            | 123           |
+| total timesteps         | 10008         |
+| value_loss              | 0.00046476084 |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 2.071814     |
+| ep_rewmean              | 4.66         |
+| episodes                | 16           |
+| eplenmean               | 834          |
+| fps                     | 81           |
+| mean 100 episode reward | 4.7          |
+| n_updates               | 12345        |
+| policy_loss             | -0.58150196  |
+| qf1_loss                | 0.0007722941 |
+| qf2_loss                | 0.0007277378 |
+| time_elapsed            | 163          |
+| total timesteps         | 13344        |
+| value_loss              | 0.0005848851 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 2.6198382     |
+| ep_rewmean              | 4.41          |
+| episodes                | 20            |
+| eplenmean               | 834           |
+| fps                     | 80            |
+| mean 100 episode reward | 4.4           |
+| n_updates               | 15681         |
+| policy_loss             | -0.63307106   |
+| qf1_loss                | 0.0006921155  |
+| qf2_loss                | 0.0007233117  |
+| time_elapsed            | 206           |
+| total timesteps         | 16680         |
+| value_loss              | 0.00044256178 |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 3.6830683    |
+| ep_rewmean              | 3.96         |
+| episodes                | 24           |
+| eplenmean               | 834          |
+| fps                     | 80           |
+| mean 100 episode reward | 4            |
+| n_updates               | 19017        |
+| policy_loss             | -0.57962453  |
+| qf1_loss                | 0.0011317139 |
+| qf2_loss                | 0.0011841876 |
+| time_elapsed            | 249          |
+| total timesteps         | 20016        |
+| value_loss              | 0.0007517105 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 5.006159      |
+| ep_rewmean              | 4.17          |
+| episodes                | 28            |
+| eplenmean               | 834           |
+| fps                     | 80            |
+| mean 100 episode reward | 4.2           |
+| n_updates               | 22353         |
+| policy_loss             | -0.5269191    |
+| qf1_loss                | 0.00059197773 |
+| qf2_loss                | 0.0006257848  |
+| time_elapsed            | 290           |
+| total timesteps         | 23352         |
+| value_loss              | 0.00049674045 |
+-------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 4.835554      |
+| ep_rewmean              | 3.91          |
+| episodes                | 32            |
+| eplenmean               | 834           |
+| fps                     | 80            |
+| mean 100 episode reward | 3.9           |
+| n_updates               | 25689         |
+| policy_loss             | -0.5267532    |
+| qf1_loss                | 0.0009956334  |
+| qf2_loss                | 0.00073614647 |
+| time_elapsed            | 331           |
+| total timesteps         | 26688         |
+| value_loss              | 0.0007052071  |
+-------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 5.1442494     |
+| ep_rewmean              | 3.72          |
+| episodes                | 36            |
+| eplenmean               | 834           |
+| fps                     | 80            |
+| mean 100 episode reward | 3.7           |
+| n_updates               | 29025         |
+| policy_loss             | -0.50463915   |
+| qf1_loss                | 0.00055694213 |
+| qf2_loss                | 0.0006054267  |
+| time_elapsed            | 373           |
+| total timesteps         | 30024         |
+| value_loss              | 0.0006011661  |
+-------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 5.3226886     |
+| ep_rewmean              | 3.55          |
+| episodes                | 40            |
+| eplenmean               | 834           |
+| fps                     | 80            |
+| mean 100 episode reward | 3.6           |
+| n_updates               | 32361         |
+| policy_loss             | -0.40829116   |
+| qf1_loss                | 0.0007762271  |
+| qf2_loss                | 0.0006973344  |
+| time_elapsed            | 415           |
+| total timesteps         | 33360         |
+| value_loss              | 0.00045765121 |
+-------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 4.8254104     |
+| ep_rewmean              | 3.41          |
+| episodes                | 44            |
+| eplenmean               | 834           |
+| fps                     | 80            |
+| mean 100 episode reward | 3.4           |
+| n_updates               | 35697         |
+| policy_loss             | -0.3706919    |
+| qf1_loss                | 0.00064287387 |
+| qf2_loss                | 0.00063631806 |
+| time_elapsed            | 458           |
+| total timesteps         | 36696         |
+| value_loss              | 0.0007981054  |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 4.782855     |
+| ep_rewmean              | 3.31         |
+| episodes                | 48           |
+| eplenmean               | 834          |
+| fps                     | 79           |
+| mean 100 episode reward | 3.3          |
+| n_updates               | 39033        |
+| policy_loss             | -0.4438869   |
+| qf1_loss                | 0.0008497474 |
+| qf2_loss                | 0.0008250933 |
+| time_elapsed            | 503          |
+| total timesteps         | 40032        |
+| value_loss              | 0.000626516  |
+------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 5.070437     |
+| ep_rewmean              | 3.22         |
+| episodes                | 52           |
+| eplenmean               | 834          |
+| fps                     | 79           |
+| mean 100 episode reward | 3.2          |
+| n_updates               | 42369        |
+| policy_loss             | -0.37637964  |
+| qf1_loss                | 0.0011996989 |
+| qf2_loss                | 0.001152329  |
+| time_elapsed            | 545          |
+| total timesteps         | 43368        |
+| value_loss              | 0.0008565056 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 5.3246756     |
+| ep_rewmean              | 3.14          |
+| episodes                | 56            |
+| eplenmean               | 834           |
+| fps                     | 79            |
+| mean 100 episode reward | 3.1           |
+| n_updates               | 45705         |
+| policy_loss             | -0.34064996   |
+| qf1_loss                | 0.0006859881  |
+| qf2_loss                | 0.0006734882  |
+| time_elapsed            | 591           |
+| total timesteps         | 46704         |
+| value_loss              | 0.00042527227 |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 5.168501     |
+| ep_rewmean              | 3.03         |
+| episodes                | 60           |
+| eplenmean               | 834          |
+| fps                     | 79           |
+| mean 100 episode reward | 3            |
+| n_updates               | 49041        |
+| policy_loss             | -0.37089604  |
+| qf1_loss                | 0.001226081  |
+| qf2_loss                | 0.0012018636 |
+| time_elapsed            | 632          |
+| total timesteps         | 50040        |
+| value_loss              | 0.0005132172 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 5.543746      |
+| ep_rewmean              | 2.94          |
+| episodes                | 64            |
+| eplenmean               | 834           |
+| fps                     | 78            |
+| mean 100 episode reward | 2.9           |
+| n_updates               | 52377         |
+| policy_loss             | -0.23497245   |
+| qf1_loss                | 0.00071485096 |
+| qf2_loss                | 0.0006010009  |
+| time_elapsed            | 675           |
+| total timesteps         | 53376         |
+| value_loss              | 0.00032844848 |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 2.9228878    |
+| ep_rewmean              | 2.89         |
+| episodes                | 68           |
+| eplenmean               | 834          |
+| fps                     | 78           |
+| mean 100 episode reward | 2.9          |
+| n_updates               | 55713        |
+| policy_loss             | -0.26589954  |
+| qf1_loss                | 0.001163567  |
+| qf2_loss                | 0.0009500009 |
+| time_elapsed            | 718          |
+| total timesteps         | 56712        |
+| value_loss              | 0.0009342297 |
+------------------------------------------
+-------------------------------------------
+| current_lr              | 0.0001        |
+| entropy                 | 3.1507063     |
+| ep_rewmean              | 2.82          |
+| episodes                | 72            |
+| eplenmean               | 834           |
+| fps                     | 78            |
+| mean 100 episode reward | 2.8           |
+| n_updates               | 59049         |
+| policy_loss             | -0.29925394   |
+| qf1_loss                | 0.00066832814 |
+| qf2_loss                | 0.0006097276  |
+| time_elapsed            | 760           |
+| total timesteps         | 60048         |
+| value_loss              | 0.00046564575 |
+-------------------------------------------
+------------------------------------------
+| current_lr              | 0.0001       |
+| entropy                 | 3.1056657    |
+| ep_rewmean              | 2.72         |
+| episodes                | 76           |
+| eplenmean               | 834          |
+| fps                     | 78           |
+| mean 100 episode reward | 2.7          |
+| n_updates               | 62385        |
+| policy_loss             | -0.32721743  |
+| qf1_loss                | 0.001145368  |
+| qf2_loss                | 0.0014599034 |
+| time_elapsed            | 804          |
+| total timesteps         | 63384        |
+| value_loss              | 0.0004958214 |
+------------------------------------------

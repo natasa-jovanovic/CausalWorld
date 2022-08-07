@@ -10,6 +10,7 @@ from typing import Dict, List, Optional, Tuple, Union
 import gym
 import numpy as np
 import pandas
+import wandb
 
 from causal_world.stable_baselines3.common.type_aliases import GymObs, GymStepReturn
 
@@ -57,6 +58,9 @@ class Monitor(gym.Wrapper):
         self.total_steps = 0
         self.current_reset_info = {}  # extra info about the current episode, that was passed in during reset()
 
+        wconfig = wandb.config
+        wconfig.batch_size = self.batch_size
+
     def reset(self, **kwargs) -> GymObs:
         """
         Calls the Gym environment reset. Can only be called if the environment is over, or if allow_early_resets is True
@@ -96,10 +100,13 @@ class Monitor(gym.Wrapper):
             ep_info = {"r": round(ep_rew, 6), "l": ep_len, "t": round(time.time() - self.t_start, 6)}
             for key in self.info_keywords:
                 ep_info[key] = info[key]
+                wandb.log({key : info[key]})
             self.episode_returns.append(ep_rew)
             self.episode_lengths.append(ep_len)
             self.episode_times.append(time.time() - self.t_start)
             ep_info.update(self.current_reset_info)
+            
+            
             if self.results_writer:
                 self.results_writer.write_row(ep_info)
             info["episode"] = ep_info

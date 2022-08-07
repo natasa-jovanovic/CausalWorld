@@ -1,0 +1,1 @@
+{"global_step": 1296, "_timestamp": 1659846516.4348364, "_runtime": 23, "_step": 299, "episode_reward": 0.2616531550884247, "loss/policy_loss": -2.5095651149749756, "loss/qf1_loss": 0.0029599880799651146, "loss/qf2_loss": 0.001453306758776307, "loss/value_loss": 0.0003060592571273446, "loss/entropy": 9.965335845947266, "loss/learning_rate": 9.999999747378752e-05}

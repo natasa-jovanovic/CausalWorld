@@ -1,0 +1,157 @@
+2022-08-05 14:12:52,330 INFO    MainThread:12220 [internal.py:wandb_internal():93] W&B internal server running at pid: 12220, started at: 2022-08-05 14:12:52.329493
+2022-08-05 14:12:52,332 INFO    WriterThread:12220 [datastore.py:open_for_write():75] open: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\run-2w13chad.wandb
+2022-08-05 14:12:52,335 DEBUG   SenderThread:12220 [sender.py:send():236] send: header
+2022-08-05 14:12:52,336 DEBUG   SenderThread:12220 [sender.py:send():236] send: run
+2022-08-05 14:12:52,526 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: check_version
+2022-08-05 14:12:52,531 INFO    SenderThread:12220 [dir_watcher.py:__init__():216] watching files in: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files
+2022-08-05 14:12:52,531 INFO    SenderThread:12220 [sender.py:_start_run_threads():818] run started: 2w13chad with start time 1659708770
+2022-08-05 14:12:52,531 DEBUG   SenderThread:12220 [sender.py:send():236] send: summary
+2022-08-05 14:12:52,532 INFO    SenderThread:12220 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-08-05 14:12:52,532 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: check_version
+2022-08-05 14:12:52,573 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: run_start
+2022-08-05 14:12:52,587 DEBUG   HandlerThread:12220 [meta.py:__init__():35] meta init
+2022-08-05 14:12:52,587 DEBUG   HandlerThread:12220 [meta.py:__init__():49] meta init done
+2022-08-05 14:12:52,587 DEBUG   HandlerThread:12220 [meta.py:probe():209] probe
+2022-08-05 14:12:52,622 DEBUG   HandlerThread:12220 [meta.py:_setup_git():199] setup git
+2022-08-05 14:12:52,721 DEBUG   HandlerThread:12220 [meta.py:_setup_git():206] setup git done
+2022-08-05 14:12:52,721 DEBUG   HandlerThread:12220 [meta.py:_save_pip():53] save pip
+2022-08-05 14:12:52,722 DEBUG   HandlerThread:12220 [meta.py:_save_pip():67] save pip done
+2022-08-05 14:12:52,722 DEBUG   HandlerThread:12220 [meta.py:_save_conda():74] save conda
+2022-08-05 14:12:53,541 INFO    Thread-11 :12220 [dir_watcher.py:_on_file_created():269] file/dir created: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\wandb-summary.json
+2022-08-05 14:12:53,542 INFO    Thread-11 :12220 [dir_watcher.py:_on_file_created():269] file/dir created: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\requirements.txt
+2022-08-05 14:12:53,542 INFO    Thread-11 :12220 [dir_watcher.py:_on_file_created():269] file/dir created: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\conda-environment.yaml
+2022-08-05 14:12:58,585 INFO    Thread-11 :12220 [dir_watcher.py:_on_file_created():269] file/dir created: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\output.log
+2022-08-05 14:12:59,363 DEBUG   HandlerThread:12220 [meta.py:_save_conda():84] save conda done
+2022-08-05 14:12:59,363 DEBUG   HandlerThread:12220 [meta.py:probe():247] probe done
+2022-08-05 14:12:59,511 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: stop_status
+2022-08-05 14:12:59,512 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: stop_status
+2022-08-05 14:12:59,590 INFO    Thread-11 :12220 [dir_watcher.py:_on_file_modified():286] file/dir modified: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\conda-environment.yaml
+2022-08-05 14:12:59,591 INFO    Thread-11 :12220 [dir_watcher.py:_on_file_created():269] file/dir created: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\wandb-metadata.json
+2022-08-05 14:12:59,655 DEBUG   SenderThread:12220 [sender.py:send():236] send: telemetry
+2022-08-05 14:12:59,655 DEBUG   SenderThread:12220 [sender.py:send():236] send: telemetry
+2022-08-05 14:12:59,656 DEBUG   SenderThread:12220 [sender.py:send():236] send: config
+2022-08-05 14:12:59,656 DEBUG   SenderThread:12220 [sender.py:send():236] send: files
+2022-08-05 14:12:59,656 INFO    SenderThread:12220 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-08-05 14:12:59,657 DEBUG   SenderThread:12220 [sender.py:send():236] send: telemetry
+2022-08-05 14:12:59,657 DEBUG   SenderThread:12220 [sender.py:send():236] send: telemetry
+2022-08-05 14:12:59,657 DEBUG   SenderThread:12220 [sender.py:send():236] send: telemetry
+2022-08-05 14:13:00,301 DEBUG   SenderThread:12220 [sender.py:send():236] send: exit
+2022-08-05 14:13:00,301 INFO    SenderThread:12220 [sender.py:send_exit():372] handling exit code: 0
+2022-08-05 14:13:00,301 INFO    SenderThread:12220 [sender.py:send_exit():374] handling runtime: 7
+2022-08-05 14:13:00,302 INFO    SenderThread:12220 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-08-05 14:13:00,302 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:00,302 INFO    SenderThread:12220 [sender.py:send_exit():380] send defer
+2022-08-05 14:13:00,303 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:00,303 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,303 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 0
+2022-08-05 14:13:00,304 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,304 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-08-05 14:13:00,304 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 1
+2022-08-05 14:13:00,304 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,304 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 1
+2022-08-05 14:13:00,309 INFO    Thread-17 :12220 [upload_job.py:push():138] Uploaded file C:\Users\psiml8\AppData\Local\Temp\tmp21q2gxpqwandb\118uwg4e-wandb-metadata.json
+2022-08-05 14:13:00,349 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,350 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-08-05 14:13:00,350 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 2
+2022-08-05 14:13:00,350 DEBUG   SenderThread:12220 [sender.py:send():236] send: stats
+2022-08-05 14:13:00,351 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,351 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 2
+2022-08-05 14:13:00,351 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,352 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-08-05 14:13:00,352 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 3
+2022-08-05 14:13:00,352 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,352 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 3
+2022-08-05 14:13:00,352 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,352 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-08-05 14:13:00,353 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 4
+2022-08-05 14:13:00,353 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,353 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 4
+2022-08-05 14:13:00,353 DEBUG   SenderThread:12220 [sender.py:send():236] send: summary
+2022-08-05 14:13:00,355 INFO    SenderThread:12220 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-08-05 14:13:00,355 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,355 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-08-05 14:13:00,355 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 5
+2022-08-05 14:13:00,356 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,356 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 5
+2022-08-05 14:13:00,356 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,356 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-08-05 14:13:00,410 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:00,570 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 6
+2022-08-05 14:13:00,570 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:00,571 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,571 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 6
+2022-08-05 14:13:00,571 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,571 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-08-05 14:13:00,571 INFO    SenderThread:12220 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-08-05 14:13:00,602 INFO    SenderThread:12220 [dir_watcher.py:_on_file_modified():286] file/dir modified: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\wandb-summary.json
+2022-08-05 14:13:00,603 INFO    SenderThread:12220 [dir_watcher.py:_on_file_modified():286] file/dir modified: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\output.log
+2022-08-05 14:13:00,603 INFO    SenderThread:12220 [dir_watcher.py:_on_file_modified():286] file/dir modified: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\config.yaml
+2022-08-05 14:13:00,603 INFO    SenderThread:12220 [dir_watcher.py:finish():383] scan: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files
+2022-08-05 14:13:00,603 INFO    SenderThread:12220 [dir_watcher.py:finish():397] scan save: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\conda-environment.yaml conda-environment.yaml
+2022-08-05 14:13:00,604 INFO    SenderThread:12220 [dir_watcher.py:finish():397] scan save: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\config.yaml config.yaml
+2022-08-05 14:13:00,604 INFO    SenderThread:12220 [dir_watcher.py:finish():397] scan save: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\output.log output.log
+2022-08-05 14:13:00,609 INFO    SenderThread:12220 [dir_watcher.py:finish():397] scan save: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\requirements.txt requirements.txt
+2022-08-05 14:13:00,616 INFO    SenderThread:12220 [dir_watcher.py:finish():397] scan save: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\wandb-metadata.json wandb-metadata.json
+2022-08-05 14:13:00,616 INFO    SenderThread:12220 [dir_watcher.py:finish():397] scan save: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\wandb-summary.json wandb-summary.json
+2022-08-05 14:13:00,621 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 7
+2022-08-05 14:13:00,625 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:00,626 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 7
+2022-08-05 14:13:00,626 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:00,626 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-08-05 14:13:00,627 INFO    SenderThread:12220 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-05 14:13:00,680 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:00,680 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:00,792 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:00,792 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:00,900 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:00,900 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,008 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,009 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,123 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,123 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,149 INFO    Thread-20 :12220 [upload_job.py:push():138] Uploaded file c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\output.log
+2022-08-05 14:13:01,160 INFO    Thread-22 :12220 [upload_job.py:push():138] Uploaded file c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\wandb-summary.json
+2022-08-05 14:13:01,171 INFO    Thread-19 :12220 [upload_job.py:push():138] Uploaded file c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\config.yaml
+2022-08-05 14:13:01,232 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,232 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,343 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,344 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,373 INFO    Thread-21 :12220 [upload_job.py:push():138] Uploaded file c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\requirements.txt
+2022-08-05 14:13:01,452 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,453 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,556 INFO    Thread-18 :12220 [upload_job.py:push():138] Uploaded file c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\files\conda-environment.yaml
+2022-08-05 14:13:01,562 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,562 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,672 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:01,673 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:01,766 INFO    Thread-10 :12220 [sender.py:transition_state():393] send defer: 8
+2022-08-05 14:13:01,766 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:01,766 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 8
+2022-08-05 14:13:01,767 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:01,767 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-08-05 14:13:01,782 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:02,234 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 9
+2022-08-05 14:13:02,234 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:02,235 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:02,235 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 9
+2022-08-05 14:13:02,236 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:02,236 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-08-05 14:13:02,236 INFO    SenderThread:12220 [sender.py:transition_state():393] send defer: 10
+2022-08-05 14:13:02,237 DEBUG   SenderThread:12220 [sender.py:send():236] send: final
+2022-08-05 14:13:02,237 DEBUG   SenderThread:12220 [sender.py:send():236] send: footer
+2022-08-05 14:13:02,237 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: defer
+2022-08-05 14:13:02,238 INFO    HandlerThread:12220 [handler.py:handle_request_defer():163] handle defer: 10
+2022-08-05 14:13:02,238 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: defer
+2022-08-05 14:13:02,238 INFO    SenderThread:12220 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-08-05 14:13:02,343 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: poll_exit
+2022-08-05 14:13:02,344 DEBUG   SenderThread:12220 [sender.py:send_request():250] send_request: poll_exit
+2022-08-05 14:13:02,344 INFO    SenderThread:12220 [file_pusher.py:join():176] waiting for file pusher
+2022-08-05 14:13:02,738 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: sampled_history
+2022-08-05 14:13:02,739 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: get_summary
+2022-08-05 14:13:02,740 DEBUG   HandlerThread:12220 [handler.py:handle_request():140] handle_request: shutdown
+2022-08-05 14:13:02,740 INFO    HandlerThread:12220 [handler.py:finish():806] shutting down handler
+2022-08-05 14:13:03,242 INFO    WriterThread:12220 [datastore.py:close():279] close: c:\Users\psiml8\CausalWorld\scripts\wandb\run-20220805_141250-2w13chad\run-2w13chad.wandb
+2022-08-05 14:13:03,632 INFO    SenderThread:12220 [sender.py:finish():1114] shutting down sender
+2022-08-05 14:13:03,632 INFO    SenderThread:12220 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-05 14:13:03,632 INFO    SenderThread:12220 [file_pusher.py:join():176] waiting for file pusher
+2022-08-05 14:13:03,635 INFO    MainThread:12220 [internal.py:handle_exit():80] Internal process exited

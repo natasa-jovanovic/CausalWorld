@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.7.4",
+    "heartbeatAt": "2022-08-06T10:08:51.931184",
+    "startedAt": "2022-08-06T10:08:36.583459",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/natasa-jovanovic/CausalWorld.git",
+        "commit": "9f8f391b0db578141de3f6ebb9aa26907b8f2621"
+    },
+    "email": "jovanovicnatasa001@gmail.com",
+    "root": "C:/Users/psiml8/CausalWorld",
+    "host": "lab000000",
+    "username": "psiml8",
+    "executable": "c:\\Users\\psiml8\\Anaconda3\\envs\\causal_world\\python.exe"
+}
